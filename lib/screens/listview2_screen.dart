@@ -25,6 +25,7 @@ class Listview2Screen extends StatelessWidget {
           ),
           onTap: () {
             final grupoActual = options[index];
+            // ignore: avoid_print
             print(grupoActual);
           },
         ),
