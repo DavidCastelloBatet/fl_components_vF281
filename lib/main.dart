@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
       // PREDEFINIDA
       onGenerateRoute: (settings) {
         return MaterialPageRoute(
-          builder: (context) => const AlertScreen(),
+          builder: (context) => const ErrorRouteScreen(),
         );
       },
     );
