@@ -18,10 +18,13 @@ class HomeScreen extends StatelessWidget {
           title: const Text('Nombre de ruta'),
           trailing: const Icon(Icons.arrow_forward_ios_outlined),
           onTap: () {
+            // CUANDO LA RUTA NO ESTA DEFINIDA
             //final route = MaterialPageRoute(
             //  builder: (context) => const Listview1Screen(),
             //);
             //Navigator.push(context, route);
+
+            // CUANDO TENEMOS LAS RUTAS DEFINIDAS
             Navigator.pushNamed(context, 'card');
           },
         ),

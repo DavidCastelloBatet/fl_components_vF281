@@ -21,6 +21,8 @@ class MyApp extends StatelessWidget {
         'listview1': (BuildContext context) => const Listview1Screen(),
         'listview2': (BuildContext context) => const Listview2Screen(),
       },
+      // EN CASO DE ERROR O QUE NO EXISTA UNA RUTA, NAVEGAMOS A SCREEN
+      // PREDEFINIDA
       onGenerateRoute: (settings) {
         return MaterialPageRoute(
           builder: (context) => const AlertScreen(),
