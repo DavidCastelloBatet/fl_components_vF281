@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Material App',
       initialRoute: AppRoutes.initialRoute,
-      routes: AppRoutes.routes,
+      routes: AppRoutes.getAppRoutes(),
       // EN CASO DE ERROR O QUE NO EXISTA UNA RUTA, NAVEGAMOS A SCREEN
       // PREDEFINIDA
       // onGenerateRoute: (settings) => AppRoutes.onGenerateRoute(settings)
