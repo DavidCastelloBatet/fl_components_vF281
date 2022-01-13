@@ -25,7 +25,7 @@ class HomeScreen extends StatelessWidget {
             //Navigator.push(context, route);
 
             // CUANDO TENEMOS LAS RUTAS DEFINIDAS
-            Navigator.pushNamed(context, 'card2');
+            Navigator.pushNamed(context, 'card');
           },
         ),
         separatorBuilder: (_, __) => const Divider(),
